@@ -7,6 +7,7 @@ Thank you for considering contributing to Project AsTeR. It's people like you th
 ## How to contribute code
 
 ### Pull requests and issues
+
 If you have improvements for the AsTeR platform, send us your pull requests! If you're new to GitHub, here is [how to do it](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
 AsTeR team members will review your pull request. Once the pull request gets approved and passes continuous integration test, an AsTeR team member will merge your change internally before merging your pull request on GitHub.
