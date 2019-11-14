@@ -15,7 +15,8 @@ Each service used by the general platform is dismantled into containerized servi
 * [**website**](https://github.com/Project-AsTeR/website): Host the current web platform (Flask, HTML, CSS and JS), presenting the project as well as the roadmap for the vision. The website also host a working demo of our core product, but is kept independent from the general software platform.
 * [**stream**](https://github.com/Project-AsTeR/stream): Core Docker container absorbing the incoming stream of emergency calls from a Twilio endpoint, over a secured websocket. Concurrent threads are also hosted on this service, to retrieve call specific meta-data, converting audio-files from ULAW to WAV, and running real-time transcription with the GCP endpoint.
 * [**trigger**](https://github.com/Project-AsTeR/trigger): Build the lambda function triggered by SQS events everytime a new call is streamed to our platform. It aims at doing the transcriptions (IBM, GCP and AWS as providers so far) and the analysis (by calling our NLP endpoint).
-* [**bastion**](https://github.com/Project-AsTeR/bastion): With this explicit names, it consists in a back-up instance aimed at being poped-up to proxy with the internal services of our VPC, in order to avoid to be locked out due to security issues.
+* [**scoring**](https://github.com/Project-AsTeR/scoring): Core service aimed at attributing priority to an incoming transcript. It also uses NLU for emotion analysis, and keywords extraction.
+* [**bastion**](https://github.com/Project-AsTeR/bastion): With such an explicit name, this service is a back-up instance aimed at being poped-up to proxy with the internal services of our VPC, in order to avoid to be locked out due to security issues.
 
 ### Prerequisites
 
