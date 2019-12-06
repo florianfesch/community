@@ -2,7 +2,7 @@
 
 `Author: Meryll Dindin`
 
-![LOGO](./assets/aster-whitened.png)
+![LOGO](./assets/aster-horizontal.png)
 
 **AsTeR** is a platform used by emergency call centers to **collect**, **analyze** and **prioritize** information. AsTeR brings state-of-the-art machine learning and modularized software for emergency response. Better information can help first responders respond to emergencies in a more efficient manner. Via a range of services ranging from call analysis to video streaming, AsTeR allows first responders to visualize the emergency and mentally prepare for it. In addition, AsTeR’s prioritization tool allows for efficient triage of calls. This is especially helpful during natural disasters when resources run scarce and emergency call centers are overwhelmed.
 
@@ -28,7 +28,7 @@ The current beta version of AsTeR focusses on triaging 911 phone calls, extracti
 
 ## Current Used Technology
 
-![LOGO](./assets/aster-v0.png)
+![LOGO](./assets/aster-cloud-v0.png)
 
 ## Sought Skills
 
@@ -40,7 +40,7 @@ Due to the concrete amount of possibilities, here are the multiple profiles that
 
 ## Currently Heading Towards
 
-![LOGO](./assets/aster-v1.png)
+![LOGO](./assets/aster-cloud-v1.png)
 
 ## Get in Touch
 
