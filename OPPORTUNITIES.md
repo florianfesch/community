@@ -16,9 +16,9 @@ Learn more about our projects on:
 
 ## Projects
 
-* [**website**](https://github.com/Project-AsTeR/website): Host the current web platform (Flask, HTML, CSS and JS), presenting the project as well as the roadmap for the vision. The website also host a working demo of our core product, and will highly likely also host the web-hosted platform for our users.
+* [**website**](https://github.com/Project-AsTeR/website): Host the current web platform (Flask, HTML, CSS and JS), presenting the project as well as the roadmap for the vision. The website also hosts a working demo of our core product, and will likely also host the web-hosted platform for our end-users.
 * [**stream**](https://github.com/Project-AsTeR/stream): Core Docker container absorbing the incoming stream of emergency calls from a Twilio endpoint, over a secured websocket. Concurrent threads are also hosted on this service, to retrieve call specific meta-data, converting audio-files from ULAW to WAV, and running real-time transcription with an AWS endpoint.
-* [**trigger**](https://github.com/Project-AsTeR/trigger): Build the lambda function triggered by SQS events everytime a new call is streamed to our platform. It aims at doing the transcriptions and the analysis (by calling our scoring endpoint).
+* [**trigger**](https://github.com/Project-AsTeR/trigger): Builds the lambda function triggered by SQS events everytime a new call is streamed to our platform. It aims at doing the transcriptions and the analysis (by calling our scoring endpoint).
 * [**scoring**](https://github.com/Project-AsTeR/scoring): Core service aimed at attributing priority to an incoming transcript. It also uses NLU for emotion analysis, and keywords extraction. It corresponds to the instance deploying the deep learning models fine-tuned on the desired problematics.
 * [**bastion**](https://github.com/Project-AsTeR/bastion): With such an explicit name, this service is a back-up instance aimed at being poped-up to proxy with the internal services of our VPC, in order to avoid to be locked out due to security issues.
 
